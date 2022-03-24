@@ -7,22 +7,11 @@ public class MainClass {
 		
 	    //LinkedList linkedlist = new LinkedList();
 		
-	    Stack stack = new Stack();
-	    stack.push(70);
-	    stack.push(30);
-	    stack.push(56);
-	    stack.display(); 
-	    
-	    stack.pop();
-	    stack.display();
-	    System.out.println("\n");
-	    
-	   System.out.println("The stack is empty or not :" + stack.isEmpty());
-	   System.out.println("The top of stack is :" + stack.peek());
-	   System.out.println("The size of stack :" + stack.size());
-
- 
-
-
+	    Queue queue = new Queue();
+	    queue.enqueue(70);
+	    queue.enqueue(30);
+	    queue.enqueue(56);
+	    queue.display(); 
+	  
 	}
 }
